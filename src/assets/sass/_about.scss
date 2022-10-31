@@ -5,3 +5,17 @@
     margin-bottom: 5rem;
   }
 }
+
+
+@media (min-width: 992px){
+  .ab-photo{
+    max-width: 50%;
+    width: 50%;
+  }
+  
+  .ab-text{
+    max-width: 50%;
+    width: 50%;
+  }
+  
+}

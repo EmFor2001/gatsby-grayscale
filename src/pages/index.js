@@ -9,9 +9,9 @@ import SocialLinks from '../components/SocialLinks';
 // import Subscribe from '../components/Subscribe';
 import Header from '../components/Header';
 
-import ipad from '../assets/images/ipad.png';
-import demoImage1 from '../assets/images/demo-image-01.jpg';
-import demoImage2 from '../assets/images/demo-image-02.jpg';
+// import ipad from '../assets/images/ipad.png';
+import garni from '../assets/images/garni-blk.png';
+import three from '../assets/images/ThreeJS-portfolio-blk.png';
 import bgMaster from '../assets/images/ja.jpg';
 
 const IndexPage = () => (
@@ -53,36 +53,38 @@ const IndexPage = () => (
       </div>
     </section> */}
 
-    <section id="projects" className="projects-section bg-light">
+    <section className="projects-section bg-light">
       <div className="container">
         <div id='ab' className="row align-items-center no-gutters mb-4 mb-lg-5">
-          <div className="col-xl-8 col-lg-7">
+          <div className="col-xl-8 col-lg-7 ab-photo">
             <img className="img-fluid mb-3 mb-lg-0" src={bgMaster} alt=""/>
           </div>
-          <div className="col-xl-4 col-lg-5">
+          <div className="col-xl-4 col-lg-5 ab-text">
             <div className="featured-text text-center text-lg-left">
-              <h4>Shoreline</h4>
+              <h4>About me</h4>
               <p className="text-black-50 mb-0">
-                Grayscale is open source and MIT licensed. This means you can
-                use it for any project - even commercial projects! Download it,
-                customize it, and publish your website!
+              I am 21 years old student of IT technologies (specialization: Front-end) at Wyższa Szkoła Bankowa in Gdańsk with passion for creating "unusual internet". Currently working as junior front-end developer for small company Gr8Soft.
               </p>
             </div>
           </div>
         </div>
 
-        <div className="row justify-content-center no-gutters mb-5 mb-lg-0">
+        <section id="projects">
+
+        
+
+        <div  className="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div className="col-lg-6">
-            <img className="img-fluid" src={demoImage1} alt="" />
+            <img className="img-fluid" src={garni} alt="" />
           </div>
           <div className="col-lg-6">
             <div className="bg-black text-center h-100 project">
               <div className="d-flex h-100">
                 <div className="project-text w-100 my-auto text-center text-lg-left">
-                  <h4 className="text-white">Misty</h4>
+                  <h4 className="text-white">Garni</h4>
                   <p className="mb-0 text-white-50">
-                    An example of where you can put an image of a project, or
-                    anything else, along with a description.
+                    Commercial website made for a sewing factory in Gdynia <br />
+                    <a href="https://garni.com.pl" target="_blank" rel="noopener noreferrer">Learn more</a>
                   </p>
                   <hr className="d-none d-lg-block mb-0 ml-0" />
                 </div>
@@ -93,17 +95,16 @@ const IndexPage = () => (
 
         <div className="row justify-content-center no-gutters">
           <div className="col-lg-6">
-            <img className="img-fluid" src={demoImage2} alt="" />
+            <img className="img-fluid" src={three} alt="" />
           </div>
           <div className="col-lg-6 order-lg-first">
             <div className="bg-black text-center h-100 project">
               <div className="d-flex h-100">
                 <div className="project-text w-100 my-auto text-center text-lg-right">
-                  <h4 className="text-white">Mountains</h4>
+                  <h4 className="text-white">ThreeJs project</h4>
                   <p className="mb-0 text-white-50">
-                    Another example of a project with its respective
-                    description. These sections work well responsively as well,
-                    try this theme on a small screen!
+                    Basic project to understand the concept of ThreeJs. <br />
+                    <a href="https://jhajduk-threejs.netlify.app" target="_blank" rel="noopener noreferrer">Learn more</a>
                   </p>
                   <hr className="d-none d-lg-block mb-0 mr-0" />
                 </div>
@@ -111,6 +112,7 @@ const IndexPage = () => (
             </div>
           </div>
         </div>
+        </section>
       </div>
     </section>
 
