@@ -25,8 +25,8 @@ const IndexPage = () => (
           <h2 className="text-white-50 mx-auto mt-2 mb-5">
             {config.subHeading}
           </h2>
-          <Scroll type="id" element="about">
-            <a href="#about" className="btn btn-primary">
+          <Scroll type="id" element="ab">
+            <a href="#ab" className="btn btn-primary">
               About Me
             </a>
           </Scroll>
@@ -55,7 +55,7 @@ const IndexPage = () => (
 
     <section id="projects" className="projects-section bg-light">
       <div className="container">
-        <div className="row align-items-center no-gutters mb-4 mb-lg-5">
+        <div id='ab' className="row align-items-center no-gutters mb-4 mb-lg-5">
           <div className="col-xl-8 col-lg-7">
             <img className="img-fluid mb-3 mb-lg-0" src={bgMaster} alt=""/>
           </div>
