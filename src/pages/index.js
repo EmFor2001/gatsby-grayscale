@@ -21,13 +21,13 @@ const IndexPage = () => (
     <header className="masthead">
       <div className="container d-flex h-100 align-items-center">
         <div className="mx-auto text-center">
-          <h1 className="mx-auto my-0 text-uppercase">{config.heading}</h1>
+          <h1 className="mx-auto my-0 text-uppercase">{config.heading}</h1> 
           <h2 className="text-white-50 mx-auto mt-2 mb-5">
             {config.subHeading}
           </h2>
           <Scroll type="id" element="about">
             <a href="#about" className="btn btn-primary">
-              About
+              About Me
             </a>
           </Scroll>
         </div>
@@ -55,7 +55,7 @@ const IndexPage = () => (
 
     <section id="projects" className="projects-section bg-light">
       <div className="container">
-        <div className="row align-items-center no-gutters mb-4 mb-lg-5">
+        {/* <div className="row align-items-center no-gutters mb-4 mb-lg-5">
           <div className="col-xl-8 col-lg-7">
             <img className="img-fluid mb-3 mb-lg-0" src={bgMaster} alt="" />
           </div>
@@ -69,7 +69,7 @@ const IndexPage = () => (
               </p>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div className="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div className="col-lg-6">
@@ -114,7 +114,7 @@ const IndexPage = () => (
       </div>
     </section>
 
-    <Subscribe />
+    {/* <Subscribe /> */}
 
     <SocialLinks />
     <Footer />
