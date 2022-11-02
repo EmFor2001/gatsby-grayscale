@@ -12,7 +12,7 @@ import Header from '../components/Header';
 // import ipad from '../assets/images/ipad.png';
 import garni from '../assets/images/garni-blk.png';
 import three from '../assets/images/ThreeJS-portfolio-blk.png';
-import bgMaster from '../assets/images/ja-blk.jpg';
+import bgMaster from '../assets/images/ja-black.jpg';
 
 const IndexPage = () => (
   <Layout>
