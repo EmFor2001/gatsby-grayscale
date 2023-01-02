@@ -13,6 +13,7 @@ import Header from '../components/Header';
 import garni from '../assets/images/garni-blk.png';
 import three from '../assets/images/ThreeJS-portfolio-blk.png';
 import bgMaster from '../assets/images/ja-black.jpg';
+import hire from '../assets/images/hire.png';
 
 const IndexPage = () => (
   <Layout>
@@ -107,6 +108,26 @@ const IndexPage = () => (
                     <a href="https://jhajduk-threejs.netlify.app" target="_blank" rel="noopener noreferrer">Learn more</a>
                   </p>
                   <hr className="d-none d-lg-block mb-0 mr-0" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div  className="row justify-content-center no-gutters mb-5 mb-lg-0">
+          <div className="col-lg-6">
+            <img className="img-fluid" src={hire} alt="" />
+          </div>
+          <div className="col-lg-6">
+            <div className="bg-black text-center h-100 project">
+              <div className="d-flex h-100">
+                <div className="project-text w-100 my-auto text-center text-lg-left">
+                  <h4 className="text-white">Hire me!</h4>
+                  <p className="mb-0 text-white-50">
+                    Personal project to save my covering letters in one place and make them easyli accessible <br />
+                    <a href="https://hire-me-jh.netlify.app" target="_blank" rel="noopener noreferrer">Learn more</a>
+                  </p>
+                  <hr className="d-none d-lg-block mb-0 ml-0" />
                 </div>
               </div>
             </div>
